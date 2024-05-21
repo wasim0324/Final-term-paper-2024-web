@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: green;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img#logo {
+    display: block;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 130px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    background: #000;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.thumbnails img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#largeImage {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(109, 114, 109);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
